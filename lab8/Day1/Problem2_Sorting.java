@@ -82,10 +82,6 @@ public class Problem2_Sorting {
             return x.title().compareTo(y.title());
         }
     });
-		   System.out.println(product);
-   // Above logic tested using method reference
-		 //  System.out.println("\nSorting using title and model using comparing and thenComparing");
-  // product.sort(Comparator.comparing(Product::title).thenComparing(Product::getModel));
-  // System.out.println(product);  
+		   System.out.println(product); 
 	}
 }
